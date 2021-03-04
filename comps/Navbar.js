@@ -4,11 +4,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/logo.png" width={128} height={77}/>
+        <Image src="/icon.png" width={128} height={77}/>
       </div>
       <Link href="/"><a>Home</a></Link>
       <Link href="/about"><a>About</a></Link>
-      <Link href="/ninjas"><a>Listing Ninja</a></Link>
+      <Link href="/ninjas"><a>Users</a></Link>
     </nav>
 );
 }
