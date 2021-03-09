@@ -25,6 +25,7 @@
 //     register: true,
 //     skipWaiting: true,
 //   },
+//   future: { webpack5: true, },
 // });
 
 // With custom service worker
@@ -35,4 +36,12 @@ module.exports = withPWA({
     dest: "public",
     swSrc: "service-worker.js",
   },
+  future: { webpack5: true, },
 });
+
+// module.exports={
+//   i18n: {
+//     locales: ['fr','en-US', 'nl-NL'],
+//     defaultLocale: 'fr',
+//   },
+// }

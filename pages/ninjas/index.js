@@ -1,4 +1,4 @@
-import styles from '../../styles/Jobs.module.css'
+import styles from '../../styles/Jobs.module.scss'
 import Link from 'next/link'
 
 // Runs before this component jsx gets rendered

@@ -1,6 +1,6 @@
 {
-  "name": "listninjas",
-  "short_name": "LN",
+  "name": "listuser",
+  "short_name": "LU",
   "icons": [
     {
       "src": "/icon.png",
